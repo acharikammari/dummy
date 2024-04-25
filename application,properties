@@ -1,1 +1,12 @@
+spring.datasource.url=jdbc:h2:mem:surendra
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.usernamme=sa
+spring.datasource.password=surendra@123
 
+spring.h2.console.enabled=true
+
+spring.jpa.show-sql=true
+
+server.port=8083
+
+management.endpoints.web.exposure.include=*
